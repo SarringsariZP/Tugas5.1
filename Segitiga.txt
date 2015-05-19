@@ -1,0 +1,29 @@
+/**
+ * Created by lenovo on 5/19/2015.
+ */
+public class Segitiga {
+    private int Alas;
+    private int Tinggi;
+    private int SisiMiring;
+    private double Luas;
+    private double Keliling;
+
+    public Segitiga(int A, int T, int SM){
+        Alas = A;
+        Tinggi = T;
+        SisiMiring = SM;
+    }
+    public void cetakSegitiga(){
+        System.out.println("= = = Segitiga = = =");
+        System.out.println("Alas="+Alas);
+        System.out.println("Tinggi="+Tinggi);
+        System.out.println("SisiMiring="+SisiMiring);
+    }
+    public void hitungSegitiga(){
+        Luas = 0.5*Alas*Tinggi;
+        System.out.println("Luas Segitiga ="+Luas);
+
+        Keliling = Alas*Tinggi*SisiMiring;
+        System.out.println("Keliling Segitiga ="+Keliling);
+    }
+}

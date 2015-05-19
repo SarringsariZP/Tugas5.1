@@ -1,0 +1,19 @@
+/**
+ * Created by lenovo on 5/19/2015.
+ */
+public class TestSegLink {
+    public static void main(String[] args) {
+        Segitiga seg = new Segitiga(1, 2, 2);
+        seg.cetakSegitiga();
+        System.out.println("");
+        seg.hitungSegitiga();
+
+        System.out.println("");
+        System.out.println("");
+
+        Lingkaran lingkar = new Lingkaran(4);
+        lingkar.cetakLingkaran();
+        System.out.println("");
+        lingkar.hitungLingaran();
+    }
+}

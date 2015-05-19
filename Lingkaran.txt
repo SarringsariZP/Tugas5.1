@@ -1,0 +1,23 @@
+/**
+ * Created by lenovo on 5/19/2015.
+ */
+public class Lingkaran {
+    private int Jari;
+    private double LuasLingkaran;
+    private double KelilingLingkaran;
+
+    public Lingkaran(int r){
+        Jari = r;
+    }
+    public void cetakLingkaran(){
+        System.out.println("= = = LINGKARAN = = =");
+        System.out.println("Jari-jari Lingkaran ="+Jari);
+    }
+    public void hitungLingaran(){
+        LuasLingkaran = Math.PI*Jari*Jari;
+        System.out.println("LuasLingkaran ="+LuasLingkaran);
+
+        KelilingLingkaran = Math.PI*(Jari+Jari);
+        System.out.println("KelilingLingkaran ="+KelilingLingkaran);
+    }
+}
